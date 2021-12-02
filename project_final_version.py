@@ -106,7 +106,7 @@ while True:
             try:
                 staff_number = int(input("Please enter your staff number: "))
                 date_present = ToyotaOy[staff_number]
-            except KeyError:
+            except:
                 print("Please enter a valid staff number!")
             else:
                 break
