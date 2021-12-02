@@ -77,7 +77,7 @@ def save():
 while True:
     print("\nA. Take attendance")
     print("B. Check if you took attendance today")
-    print("C. View absent employees today")
+    print("C. View today's absent employees")
     print("D. Reset")
     print("E. Save today's attendance list")
     command = input("Please choose one of the options above and press Enter to continue (or press Enter without choosing to enter another staff number): ")
@@ -115,4 +115,4 @@ while True:
     elif command == "X" or command == "x":
         sys.exit("Program stopped!") 
     else:
-        print("Please choose a valid option!")
+        print("Please choose a valid option or enter X to close the program!")
