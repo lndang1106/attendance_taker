@@ -1,4 +1,4 @@
-# Attendence Taker
+# Attendance Taker
 > A Python project for my Basics of Programming course at JAMK
 
 This is a program for employees of a company (let's call it Toyota company) to take attendance on their own everyday. There are five main features in this program:
